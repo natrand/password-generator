@@ -2,7 +2,6 @@
 #include <ctime>
 #include <cstdlib>
 
-
 int main(){
 
     char symbol[] = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ()[]{}!@#$%?*-_";
@@ -14,8 +13,6 @@ int main(){
     for(int i=0; i<password_length; i++){
         std::cout<<symbol[rand() % str_length];
     }
-
-    
 
     return 0;
 }
